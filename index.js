@@ -22,8 +22,19 @@ app.command("/dsb-help", async ({ ack, respond }) => {
   await respond({ text: "Available commands:\n/dsb-ping - check latency\n/dsb-help - show this list" });
 });
 
+app.command("/dsb-catfact", async ({ ack, respond }) => {
+  await ack();
+
+  try {
+    const response = await axios.get("https://catfact.ninja/fact");
+    await respond({ text: `Cat Fact:\n${response.data.fact}` });
+  } catch (err) {
+    await respond({ text: "Failed to fetch a cat fact." });
+  }
+});
 
 (async () => {
+  
   await app.start();
   console.log("bot is running!");
 })();
