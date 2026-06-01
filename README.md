@@ -2,7 +2,7 @@
   A Slack bot that responds to custom slash commands, built with Node.js and Slack Bolt over Socket Mode. 
 
 **Demo**
-  Watch the bot in action: https://canva.link/ao8ds5qmalqus6f
+  Watch the bot in action:(https://youtu.be/DYA9RcsOjBE)
 
 **What it does**
   The bot listens for slash commands in Slack and replies:
