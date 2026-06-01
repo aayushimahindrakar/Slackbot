@@ -33,3 +33,5 @@ Start the bot:
   node index.js
   When it prints bot is running!, type a command like /dsb-ping in your Slack workspace
   and the bot will reply.
+
+  Written with the help of Claude
