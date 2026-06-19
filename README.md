@@ -2,9 +2,7 @@
 A Slack bot that responds to custom slash commands, built for the Hack Club Stardance challenge. Built with Node.js and Slack Bolt over Socket Mode, and hosted 24/7 on Hack Club Nest.
 
 **Try it**
-Join the test workspace and run the commands in any channel:
-
-➡️ https://join.slack.com/t/3d-iga5409/shared_invite/zt-3zmfq50ea-c1F9sixNJ2CUGV~afsIMLA
+➡️ https://hackclub.enterprise.slack.com/archives/C0P5NE354
 
 The bot runs 24/7, so it should respond right away.
 
